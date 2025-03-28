@@ -1,0 +1,31 @@
+.friendList {
+  padding: 90px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendListItem {
+  position: relative;
+  display: flex;
+  gap: 12px;
+}
+
+.friendListStatusOffline {
+  display: none;
+  /* background-color: red; */
+}
+
+.friendListStatusOnline {
+  position: absolute;
+  top: 35px;
+  left: 33px;
+
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 50%;
+  background-color: #2de100;
+}
